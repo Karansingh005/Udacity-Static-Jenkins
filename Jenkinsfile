@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Lint HTML') {
       steps {
-        sh 'echo "Hello world"'
+        sh 'tidy -q -e *.html'
       }
     }
 
