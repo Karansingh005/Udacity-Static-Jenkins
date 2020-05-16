@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage('bulid') {
+        stage('Upload to AWS') {
             steps {
                 sh 'echo "Hello World"'
                 sh '''
